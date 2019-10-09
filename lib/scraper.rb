@@ -24,6 +24,7 @@ class Scraper
     links.each do |link|
       if link.include?("linkedin")
         student[:linkedin] = link 
+      elsif link.include?
   end
 
 end
