@@ -8,7 +8,7 @@ class Scraper
     students = []
     index_page.css('div.roster-cards-container').each do |card|
       card.css('.student-card a').each do |student|
-        student_profile_link = 
+        student_profile_link = "#{}"
         student_location 
         student_name 
       end 
