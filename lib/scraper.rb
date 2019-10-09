@@ -19,6 +19,7 @@ class Scraper
 
   def self.scrape_profile_page(profile_url)
     student = {}
+    profile_page = 
   end
 
 end
