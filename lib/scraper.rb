@@ -10,7 +10,7 @@ class Scraper
       card.css('.student-card a').each do |student|
         student_profile_link 
         student_location 
-        
+        student_name 
       end 
     end 
   end
