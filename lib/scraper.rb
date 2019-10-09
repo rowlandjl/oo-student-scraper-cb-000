@@ -33,7 +33,7 @@ class Scraper
       end 
     end 
     student[:profile_quote]
-    
+    student[:bio]
     student 
   end
 
